@@ -37,7 +37,7 @@ const alphabet = {
  */
 function findPosition(letter) {
     letter = letter.toLowerCase()
-    return alphabet[letter] ? alphabet[letter] : "not Found"
+    return alphabet[letter] ? `Postion of Alphabet : ${alphabet[letter]}` : "not Found"
 }
 
 console.log(findPosition('A'));
